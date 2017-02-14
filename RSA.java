@@ -8,11 +8,19 @@ public class RSA{
  int p = 61;
  int q = 53;
  int n;
- int dd;
+ int t;
+ int e;
+ int d;
  
- n = 61*53;
+ n = p*q;
+ t = lcm(p-1,q-1); // have to use the function at API
+ e = 17;
+ BigInteger e = new BigInteger(17);
+ e.modInverse(m) = d;
+   
+    
  
- dd = lcm
+    
  
  
  
